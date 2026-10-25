@@ -28,7 +28,7 @@ h2 + .lead{color:var(--sub);margin:0 0 22px}
 .card.big{padding:28px 30px;margin-bottom:22px;box-shadow:0 1px 0 rgba(0,0,0,.02),0 8px 24px -12px rgba(0,0,0,.08)}
 .meta{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:13px}
 .cid{background:var(--ink);color:#fff;font-weight:800;border-radius:7px;padding:2px 8px}
-.series{color:var(--sub);font-weight:600}.dl{color:var(--sub)}
+.series{color:var(--sub);font-weight:600}.new{background:var(--acc);color:#fff;font-weight:800;border-radius:7px;padding:2px 8px;font-size:12px;letter-spacing:.05em}.dl{color:var(--sub)}
 .pill{border-radius:99px;padding:2px 10px;font-weight:700;font-size:12px}
 .pill.ok{background:var(--okbg);color:var(--ok)}.pill.mid{background:var(--midbg);color:var(--mid)}.pill.wait{background:var(--waitbg);color:var(--wait)}
 .card.big h3{font-size:25px;line-height:1.35;margin:10px 0 18px;font-weight:800;letter-spacing:-.01em}
@@ -89,27 +89,87 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
 <header class="hero">
   <div class="eyebrow">SHORTS REPORT</div>
   <h1>어썸블리스 쇼츠 리포트<br><span style="color:var(--sub);font-weight:700">기획 · 성과 · 피드백</span></h1>
-  <div class="upd">마지막 갱신 · 2026-10-24 리포트 반영 · 비교 기준선 = 9월 쇼츠 3개 평균</div>
+  <div class="upd">마지막 갱신 · 2026-10-25 리포트 반영 · 비교 기준선 = 확정 쇼츠 5개 중앙값</div>
   <div class="chips">
     <div class="chip"><div class="n">15</div><div class="l">기획·제작 쇼츠</div></div>
-    <div class="chip ok"><div class="n">3</div><div class="l">성과 확정</div></div>
-    <div class="chip"><div class="n">4</div><div class="l">집계 중</div></div>
-    <div class="chip"><div class="n">8</div><div class="l">공개 대기·비공개</div></div>
+    <div class="chip ok"><div class="n">5</div><div class="l">성과 확정</div></div>
+    <div class="chip"><div class="n">5</div><div class="l">집계 중</div></div>
+    <div class="chip"><div class="n">5</div><div class="l">공개 대기·비공개</div></div>
   </div>
   <div class="one"><b>기획 원칙</b>롱폼에서 시청자가 이미 다시 보거나 끝까지 본 장면과, 댓글에서 질문·반발이 몰린 지점이 겹치는 구간만 쇼츠로 만듭니다.</div>
 </header>
 
 <h2 id="confirmed">확정 쇼츠</h2><p class="lead">성과 데이터가 확정된 쇼츠. 카드 위쪽만 봐도 결과와 배운 점이 보이고, 근거는 "상세 보기"에 있습니다.</p>
 
+<article class="card big" id="H3">
+  <header class="card-h">
+    <div class="meta"><span class="cid">H3</span><span class="series">한우물1 · 시티드 케이블로우</span><span class="pill ok">확정</span><span class="dl">10/22 · 1:03</span><span class="new">NEW</span><span class="dl">확정 10/25</span></div>
+    <h3>등운동 90%가 잘못쓰는 좁은V자바 사용법</h3>
+  </header>
+  <div class="metrics">
+    <div class="mt"><div class="ml">조회수</div><div class="mv">67,250</div><div class="ms">유효 2.8만 · 조회 1위</div></div>
+    <div class="mt"><div class="ml">계속 시청</div><div class="mv">57.1%</div><div class="ms">기준 58.2% <span class="delta down">-1.1%p</span></div>
+      <div class="bar"><i style="width:57.1%"></i><b style="left:58.2%"></b></div></div>
+    <div class="mt"><div class="ml">좋아요율</div><div class="mv">1.01%</div><div class="ms">유효 기준 <strong>2.32%</strong></div></div>
+    <div class="mt"><div class="ml">공유율</div><div class="mv">0.2%</div><div class="ms">유효 기준 <strong>0.45%</strong></div></div>
+    <div class="mt"><div class="ml">구독</div><div class="mv">+28</div><div class="ms">게시 후 구독 증가</div></div>
+  </div>
+  <div class="takeaway"><div class="tk-l">TAKEAWAY</div><p>시청자가 타임스탬프로 찍어 둔 장면은 &quot;나중에 따라 하려고 저장한 장면&quot;이다. 맥락 없이도 쓸모가 있어서 처음 보는 사람까지 데려온다. 예상 4위가 1위가 됐다</p></div>
+  <div class="three">
+    <div class="row"><div class="rl">기획</div><p>시청자가 직접 타임스탬프(5:16)를 남긴 V바 그립 전환 장면 + 그 직후 유지 상승 구간</p></div>
+    <div class="row"><div class="rl">성과</div><p>조회 6.7만으로 확정 5편 중 1위, 구독 +28로 신규 유입·구독 전환 모두 최고. 다만 첫 10초에 빠지는 사람이 가장 많았습니다</p></div>
+    <div class="row"><div class="rl">피드백</div><p>신규 유입용 포맷으로 확인된 쇼츠입니다. 첫 3초에 실제 기구 장면을 넣어 초반 이탈을 줄이고, 같은 포맷(기구 하나 · 핵심 한 줄 · 흔한 실수)을 반복합니다</p></div>
+  </div>
+  <details class="inner"><summary>상세 보기 <span>기획 근거 · 성과 전체 · 판단 기준 · 검증</span></summary>
+    <div class="grid2">
+      <section><h4>판단 기준 업데이트</h4><ul class="tagged"><li><span class="tag new">신규</span>구간 후보에서 &#x27;타임스탬프 댓글 구간&#x27;의 가중치를 곡선 상승보다 올린다 (곡선 상승이 작았던 H3가 조회·구독 1위)</li><li><span class="tag new">신규</span>댓글 신호를 두 종류로 나눈다 — 행동형(타임스탬프·&quot;따라 해봤다&quot;) = 신규 유입용 / 맥락형(오해·논쟁) = 기존 팬용</li><li><span class="tag new">신규</span>신규 유입용 반복 포맷: 기구 하나 · 핵심 한 줄 · 흔한 실수 (그립 5.2만 · V자바 6.7만이 확정 조회 1·2위)</li></ul></section>
+      <section><h4>다음 액션</h4><ol><li>첫 3초 안에 실제 V자바 누르는 장면, 맨몸 시연은 그 뒤로 짧게</li><li>후반 &#x27;흔한 실수 2가지&#x27; 구성 유지</li><li>제목 앞 &quot;등운동&quot; 유지</li><li>후속: 광배 vs 등 상부 타겟(그립·방향) + 넓은 vs 좁은 그립 묶어서 기획</li></ol></section>
+      <section><h4>기획 근거</h4><ul><li>구간 5:19~6:23 (1:04 → 1:02, 2컷, 거의 그대로)</li><li>근거: 댓글 &quot;5:16&quot; 타임스탬프(3), 곡선 6:04 상승. 예상 4위</li></ul></section>
+      <section><h4>성과 상세</h4><ul><li>곡선: 0초 136% → 3초 117% → 5초 101% → 10초 77% → 20초 66% → 30초 54% → 50초 46% → 끝 38%. 10초 유지율 77%는 확정 쇼츠(88~94%)·9월(92~98%)보다 낮음</li><li>50초 이후 하락은 0.65p/s로 확정 쇼츠 중 가장 완만 → 후반 &#x27;흔한 실수 2가지&#x27; 구성이 잘 붙잡음</li><li>유입: Shorts 피드 60.6%, 탐색 34.8%(다른 확정 쇼츠 8.8~21.5%), 검색 1.8% (검색어 1위 &quot;등운동&quot; 7.2%)</li><li>시청자: 비구독자 시청 시간 54.2% (확정 쇼츠 중 최고), 고정 70.4% / 신규 3.6%</li><li>구독 순증 조회 1만당 4.3명 (확정 5편 중앙값 1.0명) · 공유율 0.20%로 중앙값의 2배 · 댓글 12</li><li>댓글: &quot;광배에 더 집중하게 됐다&quot;, &quot;이런 디테일 좋아요&quot;, 광배 vs 등 상부 타겟 논쟁(답글 여러 개)</li></ul></section>
+      <section><h4>Aside 판단</h4><p>이번 주 최고의 신규 유입 쇼츠. 10초 유지율 77%로 확실히 낮음 → 첫 3초에 V자바 시연. 가설 A: 4~7초 낙폭이 &#x27;결론 한 줄 → 맨몸 시연&#x27; 전환과 겹침. 가설 B: 탐색 유입이 많아 의도 약한 시청자가 많았을 수 있음</p></section>
+      <section><h4>Claude 검증</h4><ul class="tagged"><li><span class="tag agree">동의</span>구독 1만당 4.3명(28/64,654), 공유율 중앙값 2배 계산 확인. 유효 조회수 기준 좋아요 2.32%·공유 0.45%로 그립(1.80%·0.20%)보다도 높음</li><li><span class="tag hold">보류</span>&#x27;10초 유지율 77% = 초반 문제&#x27;는 시청자 구성과 섞여 있음. 확정 5편의 비구독 비중과 10초 유지율을 나란히 보면 비구독↑일수록 10초 유지↓ (V자바 54%→77%, 그립 47%→88%, 일자바 30%→94%, 빡세게 13%→93%). 예외는 용승(19%→88%). 가설 B 쪽 근거가 꽤 있어서, 편집 탓으로 단정하기 이름</li><li><span class="tag add">추가</span>판별법: 다음 &#x27;기구 하나&#x27; 쇼츠에서 첫 3초를 기구 장면으로 바꾸고, 비구독 비중이 비슷한데 10초 유지율이 85% 이상이면 가설 A(편집) 지지</li><li><span class="tag disagree">예측 실패</span>기획 예상 4위 → 실제 조회·구독 1위. 곡선 상승(6:04)은 작았고 타임스탬프 댓글(5:16)이 핵심 근거였음 → 내 우선순위 기준이 타임스탬프 신호를 과소평가</li></ul></section>
+    </div>
+  </details>
+</article>
+<article class="card big" id="P2">
+  <header class="card-h">
+    <div class="meta"><span class="cid">P2</span><span class="series">ACSM 팟캐스트</span><span class="pill ok">확정</span><span class="dl">10/22 · 0:48</span><span class="new">NEW</span><span class="dl">확정 10/25</span></div>
+    <h3>운동은 빡세게 하는게 답일까?</h3>
+  </header>
+  <div class="metrics">
+    <div class="mt"><div class="ml">조회수</div><div class="mv">15,893</div><div class="ms">유효 8.5천 · 조회 3위</div></div>
+    <div class="mt"><div class="ml">계속 시청</div><div class="mv">70.3%</div><div class="ms">기준 58.2% <span class="delta up">+12.1%p</span></div>
+      <div class="bar"><i style="width:70.3%"></i><b style="left:58.2%"></b></div></div>
+    <div class="mt"><div class="ml">좋아요율</div><div class="mv">0.48%</div><div class="ms">유효 기준 <strong>0.88%</strong></div></div>
+    <div class="mt"><div class="ml">공유율</div><div class="mv">0.07%</div><div class="ms">유효 기준 <strong>0.13%</strong></div></div>
+    <div class="mt"><div class="ml">구독</div><div class="mv">0</div><div class="ms">게시 후 구독 증가</div></div>
+  </div>
+  <div class="takeaway"><div class="tk-l">TAKEAWAY</div><p>댓글의 &#x27;오해&#x27;는 롱폼을 본 사람의 오해다. 그 오해를 바로잡는 쇼츠는 롱폼을 본 사람만 붙잡고, 처음 보는 사람에겐 바로잡을 오해 자체가 없다</p></div>
+  <div class="three">
+    <div class="row"><div class="rl">기획</div><p>댓글에서 가장 많았던 오해(&quot;2RIR이면 쉬운 거 아님?&quot;)를 연구 결과로 바로잡는 구간</p></div>
+    <div class="row"><div class="rl">성과</div><p>계속 시청 70.3%로 확정 쇼츠 중 최고(9월보다도 높음)지만, 좋아요·공유·구독은 최저. 시청 시간의 87%가 기존 구독자</p></div>
+    <div class="row"><div class="rl">피드백</div><p>상황극 오프닝은 기존 시청자를 잘 붙잡았지만 바깥으로 퍼지지 않았습니다. 제목·첫 자막에 구체 결론(&quot;끝까지 안 해도 근성장 같았다&quot;)을 넣어 처음 보는 사람용으로 바꿉니다</p></div>
+  </div>
+  <details class="inner"><summary>상세 보기 <span>기획 근거 · 성과 전체 · 판단 기준 · 검증</span></summary>
+    <div class="grid2">
+      <section><h4>판단 기준 업데이트</h4><ul class="tagged"><li><span class="tag agree">강화</span>대상(기존 팬 / 신규)을 먼저 정한다 — 용승에 이어 두 번째 사례. 추상 질문 제목 + 롱폼 맥락 의존 = 구독 0</li><li><span class="tag new">신규</span>맥락형 댓글(오해·논쟁) 기반 구간을 신규 유입용으로 쓰려면 제목·첫 자막에 결론을 먼저 박아 맥락 없이도 읽히게 한다</li><li><span class="tag add">가설</span>같은 원리로 휴식 시간 논쟁(P3)·정답 논쟁(P5)도 팬 소비형이 나올 것 — 다음 리포트에서 검증</li></ul></section>
+      <section><h4>다음 액션</h4><ol><li>제목·첫 자막에 결론: &quot;끝까지 안 해도 근성장 같았다(8주 연구)&quot;</li><li>상황극 오프닝은 다른 쇼츠에서도 시험</li><li>후속: &quot;초보자는 실패지점까지 해야 하나?&quot; (댓글 수요 최대), RIR 뜻을 자막으로 한 번 정의</li><li>Aside 리포트에 관련 동영상 클릭률 추가 (재요청)</li></ol></section>
+      <section><h4>기획 근거</h4><ul><li>구간 27:45~29:57 (68초 → 진성 47초, 8컷)</li><li>근거: 댓글 오해 1위(2RIR = 쉬움), RIR 확인 질문(17) + 곡선 23:12 RIR 정의 상승. 성과금 500 비유</li><li>진성 수정: 성과금 500 비유를 맨 앞 훅으로, 연결 문장 삭제</li></ul></section>
+      <section><h4>성과 상세</h4><ul><li>곡선: 0초 143% → 3초 127% → 5초 119% → 10초 93% → 20초 78% → 30초 68% → 끝 48%. 10초 유지율 93%로 초반 문제 없음</li><li>구성: 0~6초 상황극(&quot;성과급 500 준대요&quot;) → 6~17초 연구 설명 → 17~26초 결론(1~3 RIR = 실패지점과 효과 같음) → 26초 이후 &quot;RIR은 쉬운 게 아니다&quot;</li><li>유입: Shorts 피드 72.7%, 탐색 16.9%, 알림 6.3%, 검색 1.6% (검색어는 &quot;어썸블리스&quot; 20.1%)</li><li>시청자: 구독자 시청 시간 86.6% (확정 쇼츠 중 최고)</li><li>댓글 10: &quot;초보는 실패지점까지 해봐야 한다&quot; 장문 + 동조, &quot;논문충&quot; 논쟁, &quot;풀영상을 좀 봐라&quot;</li><li>관련 동영상 클릭률(이 시리즈 핵심 KPI): 이번 리포트에도 없음</li></ul></section>
+      <section><h4>Aside 판단</h4><p>보기 시작한 사람은 가장 잘 붙잡았지만 퍼지지 않음(좋아요·공유 최저, 구독 0). 용승님과 같은 팬 소비형. 제목이 추상 질문이라 비구독자에게 정보가 전달 안 됐을 수 있음</p></section>
+      <section><h4>Claude 검증</h4><ul class="tagged"><li><span class="tag agree">동의</span>구독자 86.6% + 검색 대부분 채널명 + 구독 0 → 팬 소비형 판정 맞음. 유효 기준으로도 좋아요 0.88%·공유 0.13%로 확정 5편 중 최저권</li><li><span class="tag agree">동의</span>&#x27;높은 계속 시청 = 상황극 효과&#x27;를 분리할 수 없다는 유보도 맞음. 구독자 비중이 높으면 계속 시청이 높게 나오는 경향이 같이 섞임</li><li><span class="tag add">추가</span>기획 단계 근거는 &#x27;댓글 오해 1위(2RIR = 쉬움)&#x27;였음. 이 오해는 37분 롱폼을 본 사람의 것이라, 근거 자체가 팬 쪽으로 기울어 있었음 → 근거의 출처(누구의 목소리인가)를 기획 때 같이 적어야 함</li><li><span class="tag disagree">누락</span>ACSM 쇼츠의 목표는 롱폼 클릭인데 관련 동영상 클릭률이 이번에도 없음. &#x27;풀영상을 좀 봐라&#x27; 댓글은 롱폼 인지 신호라, 이 수치가 있으면 팬 소비형이 오히려 목표에 맞았는지 판정 가능</li></ul></section>
+    </div>
+  </details>
+</article>
 <article class="card big" id="H1">
   <header class="card-h">
-    <div class="meta"><span class="cid">H1</span><span class="series">한우물1 · 시티드 케이블로우</span><span class="pill ok">확정</span><span class="dl">10/20 · 0:59</span></div>
+    <div class="meta"><span class="cid">H1</span><span class="series">한우물1 · 시티드 케이블로우</span><span class="pill ok">확정</span><span class="dl">10/20 · 0:59</span><span class="dl">확정 10/24</span></div>
     <h3>등운동 그립은 이거 2개만 알아도 충분합니다</h3>
   </header>
   <div class="metrics">
-    <div class="mt"><div class="ml">조회수</div><div class="mv">50,629</div><div class="ms">유효 2.4만 · 조회 1위</div></div>
-    <div class="mt"><div class="ml">계속 시청</div><div class="mv">57.8%</div><div class="ms">기준 59.8% <span class="delta down">-2.0%p</span></div>
-      <div class="bar"><i style="width:57.8%"></i><b style="left:59.8%"></b></div></div>
+    <div class="mt"><div class="ml">조회수</div><div class="mv">52,164</div><div class="ms">유효 2.4만 · 조회 2위</div></div>
+    <div class="mt"><div class="ml">계속 시청</div><div class="mv">58.2%</div><div class="ms">기준 58.2% <span class="delta ">0.0%p</span></div>
+      <div class="bar"><i style="width:58.2%"></i><b style="left:58.2%"></b></div></div>
     <div class="mt"><div class="ml">좋아요율</div><div class="mv">0.87%</div><div class="ms">유효 기준 <strong>1.8%</strong></div></div>
     <div class="mt"><div class="ml">공유율</div><div class="mv">0.1%</div><div class="ms">유효 기준 <strong>0.2%</strong></div></div>
     <div class="mt"><div class="ml">구독</div><div class="mv">+7</div><div class="ms">게시 후 구독 증가</div></div>
@@ -117,7 +177,7 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
   <div class="takeaway"><div class="tk-l">TAKEAWAY</div><p>롱폼에서 가장 많이 다시 본 &#x27;원리 구분&#x27; 장면은 쇼츠에서도 퍼진다. 그런데 퍼지는 힘(조회 5만)과 남기는 힘(구독 +7)은 별개다</p></div>
   <div class="three">
     <div class="row"><div class="rl">기획</div><p>롱폼에서 가장 많이 다시 본 장면(팔꿈치 위치로 광배근/승모근 구분)에 &quot;원리 설명이 좋다&quot;는 댓글 수요가 겹친 구간</p></div>
-    <div class="row"><div class="rl">성과</div><p>조회 5.06만으로 확정 3편 중 1위. 계속 시청 57.8%로 기준선(59.8%)과 비슷한 수준</p></div>
+    <div class="row"><div class="rl">성과</div><p>조회 5.2만으로 확정 5편 중 2위. 계속 시청 58.2%로 기준선(확정 5편 중앙값)과 같은 수준</p></div>
     <div class="row"><div class="rl">피드백</div><p>결론(그립 2개)을 첫 1초에 띄우고, 댓글에서 나온 &quot;넓은 vs 좁은 그립&quot; 혼란을 후속편으로 이어갑니다</p></div>
   </div>
   <details class="inner"><summary>상세 보기 <span>기획 근거 · 성과 전체 · 판단 기준 · 검증</span></summary>
@@ -125,7 +185,7 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
       <section><h4>판단 기준 업데이트</h4><ul class="tagged"><li><span class="tag keep">유지</span>구간 1순위 = 롱폼 곡선 최대 상승 구간 (근거 +1)</li><li><span class="tag new">신규</span>끝 3초의 역할(구독 / 롱폼 클릭 / 후속편 예고)을 반드시 하나 정한다. 안 정하면 잘 퍼져도 아무것도 안 남는다</li></ul></section>
       <section><h4>다음 액션</h4><ol><li>오프닝 0~3초 안에 결론 자막</li><li>후속 소재: 넓은 vs 좁은 그립, 벤치 그립(엄지/새끼), 풀업 vs 친업</li><li>끝 3초에 구독 또는 롱폼 유도 문장 테스트</li><li>&quot;등운동&quot;을 제목 앞쪽에 유지</li></ol></section>
       <section><h4>기획 근거</h4><ul><li>구간 0:33~2:23 (1차 1:50 → 진성 최종 0:59, 13컷 + 블러 컴파운드 3)</li><li>근거: 곡선 최대 상승 1:09~1:15 + 이후 2:07까지 평탄. 댓글 &quot;원리 부분이 정말 좋아요&quot;(6), &quot;웨이트 3년차… 오늘 완전히 이해&quot;(4)</li><li>예상 순위: 한우물 5편 중 1위</li><li>진성 수정: 근육 나열을 잘게 점프컷 + B롤·블러로 덮음. 팔꿈치 원리 부연 삭제</li></ul></section>
-      <section><h4>성과 상세</h4><ul><li>곡선: 0초 143% → 3초 121% → 5초 107% → 10초 88% → 30초 66% → 끝 47%</li><li>유입: Shorts 피드 83.3%, 탐색 10.9%, 검색 2.3% (검색어 1위 &quot;등운동&quot; 15%)</li><li>시청자: 비구독자 시청 시간 46.6%, 고정 시청자 71.8% / 신규 4.2%</li><li>댓글 9 · 평균 시청 0:41</li></ul></section>
+      <section><h4>성과 상세</h4><ul><li>곡선(10/25 기준선표): 0초 144% → 3초 121% → 5초 107% → 10초 88% → 30초 66% → 50초 53% → 끝 47%</li><li>유입: Shorts 피드 83.3%, 탐색 10.9%, 검색 2.3% (검색어 1위 &quot;등운동&quot; 15%)</li><li>시청자: 비구독자 시청 시간 46.6%, 고정 시청자 71.8% / 신규 4.2%</li><li>댓글 9 · 평균 시청 0:41</li><li>10/25: 50,629 → 52,164 (+3.0%), 재상승 아님. 구독 순증 조회 1만당 약 1.4명</li></ul></section>
       <section><h4>Aside 판단</h4><p>0~6초 최대 이탈 → 오프닝 압축. 고정 시청자 72%·신규 4%라 기존 팬 안에서 소비됨</p></section>
       <section><h4>Claude 검증</h4><ul class="tagged"><li><span class="tag agree">동의</span>0~3초 하락(-22p, 초당 -7.3p)이 가장 큼. 오프닝 압축은 맞는 처방</li><li><span class="tag disagree">반박</span>&quot;팬 안에서 소비&quot;는 과함. 시청 시간의 46.6%가 비구독자이고 &#x27;고정 시청자&#x27;는 구독자와 다름. 진짜 약점은 구독 전환(5만 조회에 +7)</li><li><span class="tag add">가설 대조</span>예상 1위 → 현재 1위. 가설 1 1차 지지. 한우물 5편 중 2편만 확정이라 판정 보류</li></ul></section>
     </div>
@@ -133,21 +193,21 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
 </article>
 <article class="card big" id="H5">
   <header class="card-h">
-    <div class="meta"><span class="cid">H5</span><span class="series">한우물1 · 시티드 케이블로우</span><span class="pill ok">확정</span><span class="dl">10/21 · 1:15</span></div>
+    <div class="meta"><span class="cid">H5</span><span class="series">한우물1 · 시티드 케이블로우</span><span class="pill ok">확정</span><span class="dl">10/21 · 1:15</span><span class="dl">확정 10/24</span></div>
     <h3>시티드로우(롱풀) 일자바 사용법 완벽 가이드</h3>
   </header>
   <div class="metrics">
-    <div class="mt"><div class="ml">조회수</div><div class="mv">11,910</div><div class="ms">유효 4.8천 · 조회 하위</div></div>
-    <div class="mt"><div class="ml">계속 시청</div><div class="mv">44.0%</div><div class="ms">기준 59.8% <span class="delta down">-15.8%p</span></div>
-      <div class="bar"><i style="width:44.0%"></i><b style="left:59.8%"></b></div></div>
-    <div class="mt"><div class="ml">좋아요율</div><div class="mv">1.81%</div><div class="ms">유효 기준 <strong>4.25%</strong></div></div>
-    <div class="mt"><div class="ml">공유율</div><div class="mv">0.27%</div><div class="ms">유효 기준 <strong>0.63%</strong></div></div>
+    <div class="mt"><div class="ml">조회수</div><div class="mv">14,834</div><div class="ms">유효 4.8천 · 조회 4위</div></div>
+    <div class="mt"><div class="ml">계속 시청</div><div class="mv">45.4%</div><div class="ms">기준 58.2% <span class="delta down">-12.8%p</span></div>
+      <div class="bar"><i style="width:45.4%"></i><b style="left:58.2%"></b></div></div>
+    <div class="mt"><div class="ml">좋아요율</div><div class="mv">1.76%</div><div class="ms">유효 기준 <strong>4.25%</strong></div></div>
+    <div class="mt"><div class="ml">공유율</div><div class="mv">0.31%</div><div class="ms">유효 기준 <strong>0.63%</strong></div></div>
     <div class="mt"><div class="ml">구독</div><div class="mv">+1</div><div class="ms">게시 후 구독 증가</div></div>
   </div>
   <div class="takeaway"><div class="tk-l">TAKEAWAY</div><p>내용이 좋은 것(본 사람의 좋아요·공유)과 피드에서 멈추게 하는 것(계속 시청)은 다른 능력이다. 구간을 제대로 골라도 첫 화면이 약하면 노출이 안 열린다</p></div>
   <div class="three">
     <div class="row"><div class="rl">기획</div><p>와이드그립 당기기 설명에서 시청 유지가 올라간 구간. 훅이 약해 우선순위는 가장 낮게 잡음</p></div>
-    <div class="row"><div class="rl">성과</div><p>조회 1.19만으로 확정 3편 중 하위. 대신 끝까지 본 사람의 좋아요·공유 비율은 3편 중 최고</p></div>
+    <div class="row"><div class="rl">성과</div><p>조회 1.48만으로 확정 5편 중 4위. 확정 뒤 48시간 동안 다시 +24.6% 올랐고, 본 사람의 좋아요·공유 비율은 여전히 상위</p></div>
     <div class="row"><div class="rl">피드백</div><p>내용은 반응이 좋았고 문제는 피드에서 멈추게 하는 첫 화면입니다. 첫 프레임·첫 자막을 바꾸고 50초 안으로 줄입니다</p></div>
   </div>
   <details class="inner"><summary>상세 보기 <span>기획 근거 · 성과 전체 · 판단 기준 · 검증</span></summary>
@@ -155,7 +215,7 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
       <section><h4>판단 기준 업데이트</h4><ul class="tagged"><li><span class="tag new">신규</span>기획 근거를 두 줄로 — ① 구간 근거(왜 이 내용인가) ② 첫 화면 근거(피드에서 왜 멈추는가). ②가 비면 첫 화면부터 다시 짠다</li><li><span class="tag new">신규</span>성과는 유효 조회수 기준 비율로 본다. 계속 시청↓ + 유효 좋아요·공유↑ = &quot;버릴 쇼츠&quot;가 아니라 &quot;첫 화면만 고치면 되는 쇼츠&quot;</li><li><span class="tag fix">수정</span>&quot;훅 문장이 약하면 성과↓&quot; → 문장보다 첫 화면(그림 + 첫 자막)이 먼저. 약한 훅을 이미 뺐는데도 하위였음</li></ul></section>
       <section><h4>다음 액션</h4><ol><li>첫 프레임에 결과 동작 + 3단계 숫자 자막</li><li>50초 이내 압축(댓글 3단계 구조 그대로)</li><li>제목에 &quot;롱풀&quot;·&quot;시티드로우&quot; 둘 다 유지</li></ol></section>
       <section><h4>기획 근거</h4><ul><li>구간 3:46~5:14 (1:28 → 1:14, 8컷, B롤 2개)</li><li>근거: 곡선 3:51 상승. 훅 문장(&quot;자 이제 드디어 당기기를 배울 건데&quot;)이 약함 → 예상 5위</li><li>진성 수정: 약한 훅 삭제, &quot;우선 일자바가 조금 더 쉬워서 이것부터 설명드릴게요&quot;로 시작</li><li>검증 포인트: 가설 4(훅이 약하면 성과↓)</li></ul></section>
-      <section><h4>성과 상세</h4><ul><li>곡선: 0초 139% → 3초 127% → 5초 110% → 10초 97% → 30초 69% → 50초 58% → 끝 40%</li><li>유입: Shorts 피드 80.0%, 탐색 8.8%, 검색 3.7% (롱풀 6.4%, 시티드로우 4.8%)</li><li>시청자: 구독자 시청 시간 70.0%, 여성 15.4% (이번 주 최고)</li><li>댓글 3 · 평균 시청 0:49 · 시청자가 핵심을 3단계로 요약한 댓글 있음</li></ul></section>
+      <section><h4>성과 상세</h4><ul><li>곡선: 0초 139% → 3초 127% → 5초 110% → 10초 97% → 30초 69% → 50초 58% → 끝 40%</li><li>유입: Shorts 피드 80.0%, 탐색 8.8%, 검색 3.7% (롱풀 6.4%, 시티드로우 4.8%)</li><li>시청자: 구독자 시청 시간 70.0%, 여성 15.4% (이번 주 최고)</li><li>댓글 3 · 평균 시청 0:49 · 시청자가 핵심을 3단계로 요약한 댓글 있음</li><li>10/25 재상승: 11,910 → 14,834 (+24.6%), 48시간 3,012회. 트래픽 비중은 그대로(피드 80.6%), 새 검색어 &quot;헬스장 기구 사용법&quot; 4.7%</li><li>유효 기준 좋아요·공유율(4.25% / 0.63%)은 10/24 확정치 기준</li></ul></section>
       <section><h4>Aside 판단</h4><p>첫 프레임 문제(넘긴 비율 최악, 본 사람 반응 최고). 1:15는 길다. 3~7초 템포 올리기</p></section>
       <section><h4>Claude 검증</h4><ul class="tagged"><li><span class="tag agree">동의·강화</span>유효 조회수로 나누면 좋아요 4.25% vs 그립 1.80% vs 용승 1.10%. 본 사람 기준 압도적 1위라 &quot;내용은 문제 아님&quot;이 더 단단해짐</li><li><span class="tag hold">보류</span>첫 프레임 문제는 아직 가설. 남은 44%가 원래 관심층(선택 효과)일 수 있고, &quot;일자바&quot; 소재 자체가 좁을 수도. H4·H2가 판별 실험</li><li><span class="tag disagree">반박</span>50초 압축 근거는 곡선이 아님. 50초 이후 초당 하락(약 0.72p)은 그립(약 0.67p)과 비슷. 근거는 댓글이 3단계로 요약했다는 점</li></ul></section>
     </div>
@@ -163,21 +223,21 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
 </article>
 <article class="card big" id="P1">
   <header class="card-h">
-    <div class="meta"><span class="cid">P1</span><span class="series">ACSM 팟캐스트</span><span class="pill ok">확정</span><span class="dl">10/21 · 0:59</span></div>
+    <div class="meta"><span class="cid">P1</span><span class="series">ACSM 팟캐스트</span><span class="pill ok">확정</span><span class="dl">10/21 · 0:59</span><span class="dl">확정 10/24</span></div>
     <h3>용승님이 이 영상을 싫어합니다(?)</h3>
   </header>
   <div class="metrics">
-    <div class="mt"><div class="ml">조회수</div><div class="mv">9,929</div><div class="ms">유효 4.8천 · 조회 3위</div></div>
-    <div class="mt"><div class="ml">계속 시청</div><div class="mv">63.7%</div><div class="ms">기준 59.8% <span class="delta up">+3.9%p</span></div>
-      <div class="bar"><i style="width:63.7%"></i><b style="left:59.8%"></b></div></div>
-    <div class="mt"><div class="ml">좋아요율</div><div class="mv">0.56%</div><div class="ms">유효 기준 <strong>1.1%</strong></div></div>
+    <div class="mt"><div class="ml">조회수</div><div class="mv">10,516</div><div class="ms">유효 4.8천 · 조회 5위</div></div>
+    <div class="mt"><div class="ml">계속 시청</div><div class="mv">62.5%</div><div class="ms">기준 58.2% <span class="delta up">+4.3%p</span></div>
+      <div class="bar"><i style="width:62.5%"></i><b style="left:58.2%"></b></div></div>
+    <div class="mt"><div class="ml">좋아요율</div><div class="mv">0.54%</div><div class="ms">유효 기준 <strong>1.1%</strong></div></div>
     <div class="mt"><div class="ml">공유율</div><div class="mv">0.01%</div><div class="ms">유효 기준 <strong>0.02%</strong></div></div>
     <div class="mt"><div class="ml">구독</div><div class="mv">+1</div><div class="ms">게시 후 구독 증가</div></div>
   </div>
   <div class="takeaway"><div class="tk-l">TAKEAWAY</div><p>인물 이름은 이미 그 사람을 아는 시청자만 멈추게 한다. 처음 보는 사람에게는 &quot;나한테 무슨 이득인지&quot;가 먼저 보여야 한다</p></div>
   <div class="three">
     <div class="row"><div class="rl">기획</div><p>롱폼에서 시청 유지가 가장 크게 오른 장면(이용승 얘기)을 쓰고, &quot;여기까지만 들으면 오해&quot;로 끝내 본편으로 넘기는 구성</p></div>
-    <div class="row"><div class="rl">성과</div><p>끝까지 보는 비율은 3편 중 최고(계속 시청 63.7%)였지만 대부분 기존 구독자가 봤고 새로 퍼지지는 않았습니다</p></div>
+    <div class="row"><div class="rl">성과</div><p>끝까지 보는 비율은 높았지만(계속 시청 62.5%, 확정 5편 중 2위) 대부분 기존 구독자가 봤고 새로 퍼지지는 않았습니다</p></div>
     <div class="row"><div class="rl">피드백</div><p>인물 이야기는 팬 유지용으로는 좋지만 신규 유입에는 약합니다. 다음부터는 팁을 제목·첫 화면에 먼저 두고 인물은 후킹 장치로만 씁니다</p></div>
   </div>
   <details class="inner"><summary>상세 보기 <span>기획 근거 · 성과 전체 · 판단 기준 · 검증</span></summary>
@@ -185,7 +245,7 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
       <section><h4>판단 기준 업데이트</h4><ul class="tagged"><li><span class="tag new">신규</span>기획 단계에서 대상(기존 팬 유지 / 신규 유입)을 먼저 정한다. 신규 유입이면 제목·첫 화면은 이득(팁), 인물은 둘째 컷부터</li><li><span class="tag hold">보류</span>&quot;빅네임 = 조회 1위&quot;(가설 3)는 현재 약화. P2~P6 확정 후 판정</li></ul></section>
       <section><h4>다음 액션</h4><ol><li>Aside 리포트에 관련 동영상 클릭률 추가</li><li>인물 콘텐츠는 0초에 상황/갈등, 제목 앞에 팁 키워드</li></ol></section>
       <section><h4>기획 근거</h4><ul><li>구간 5:10~6:35 + 2:15·2:25 (63초 → 진성 58초, 10컷)</li><li>근거: 곡선 1위 6:22~6:43 + 오프닝 몽타주 대사 + 빅네임</li><li>기획 헤드라인: &quot;이용승이 / 실패지점까지 안 가는 2가지 이유&quot;(팁형) → 업로드 제목은 인물형</li><li>진성 수정: 가장 센 대사를 2번째 컷으로 당김 + 댓글 스크린샷 인서트</li><li>검증 포인트: 가설 1(본편 언급 끝 → 롱폼 클릭↑), 가설 3(빅네임 = 조회 1위)</li></ul></section>
-      <section><h4>성과 상세</h4><ul><li>곡선: 0초 139% → 3초 118% → 5초 110% → 10초 84% → 30초 66% → 끝 44%</li><li>유입: Shorts 피드 71.8%, 탐색 21.5% (추천 출처 100% &quot;100% 내추럴 루틴&quot;), 검색은 채널명 위주</li><li>시청자: 구독자 시청 시간 80.5% · 공유 1개</li><li>관련 동영상 클릭률(이 편의 핵심 KPI): 리포트에 없음</li></ul></section>
+      <section><h4>성과 상세</h4><ul><li>곡선: 0초 139% → 3초 118% → 5초 110% → 10초 84% → 30초 66% → 끝 44%</li><li>유입: Shorts 피드 71.8%, 탐색 21.5% (추천 출처 100% &quot;100% 내추럴 루틴&quot;), 검색은 채널명 위주</li><li>시청자: 구독자 시청 시간 80.5% · 공유 1개</li><li>관련 동영상 클릭률(이 편의 핵심 KPI): 리포트에 없음</li><li>10/25: 9,929 → 10,516 (+5.9%), 재상승 아님</li></ul></section>
       <section><h4>Aside 판단</h4><p>팬 소비용. 신규 유입 목적이면 팁을 먼저, 인물 소개 없이 상황/갈등으로 시작</p></section>
       <section><h4>Claude 검증</h4><ul class="tagged"><li><span class="tag agree">동의</span>구독자 시청 80.5% + 공유 1개면 바깥으로 안 퍼진 것. 처방도 맞음</li><li><span class="tag add">추가</span>기획 헤드라인은 팁형이었고 업로드 제목이 인물형으로 바뀜. 결과는 팁형 쪽을 지지하는 1차 데이터(1편이라 단정 불가)</li><li><span class="tag disagree">누락</span>이 시리즈 목표는 롱폼 클릭인데 리포트에 관련 동영상 클릭률이 없음 → 가설 1 검증 불가. Aside 항목 추가 필요</li></ul></section>
     </div>
@@ -194,71 +254,61 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
 
 <h2 id="ledger">판단 기준 장부</h2><p class="lead">쇼츠마다 얻은 takeaway가 기준 한 줄로 쌓입니다. 다음 기획은 여기서 시작합니다.</p>
 <p class="scale">확신도: 가설 → 1차 지지(1편) → 지지(2~3편) → 확정(4편 이상, 반례 없음)</p>
-<table><thead><tr><th>#</th><th>판단 기준</th><th>단계</th><th>확신도</th><th>근거 쇼츠</th><th>다음 검증</th></tr></thead><tbody><tr class=""><td class="n">1</td><td class="rule">구간 1순위 = 롱폼 시청 지속 곡선 최대 상승 구간</td><td><span class="stage">기획</span></td>
-<td><span class="conf c1">1차 지지</span></td><td class="src">H1</td><td class="src">H2 · H3 · J1</td></tr><tr class=""><td class="n">2</td><td class="rule">기획 근거는 ① 구간 근거 ② 첫 화면 근거(피드에서 왜 멈추나) 두 줄로. ②가 비면 첫 화면부터 다시 짠다</td><td><span class="stage">기획</span></td>
-<td><span class="conf c0">가설</span></td><td class="src">H5</td><td class="src">H4(도발형 첫 화면) · H2(같은 소재, 다른 오프닝)</td></tr><tr class=""><td class="n">3</td><td class="rule">대상(기존 팬 / 신규)을 먼저 정한다. 신규면 제목·첫 화면 = 이득, 인물은 둘째 컷부터</td><td><span class="stage">기획</span></td>
-<td><span class="conf c1">1차 지지</span></td><td class="src">P1</td><td class="src">P2~P6</td></tr><tr class=""><td class="n">4</td><td class="rule">끝 3초의 역할(구독 / 롱폼 클릭 / 후속편)을 하나 정한다</td><td><span class="stage">기획</span></td>
+<table><thead><tr><th>#</th><th>판단 기준</th><th>단계</th><th>확신도</th><th>근거 쇼츠</th><th>다음 검증</th></tr></thead><tbody><tr class=""><td class="n">1</td><td class="rule">구간 후보 = 롱폼 시청 지속 곡선 상승 구간 (단, 타임스탬프 댓글 구간이 더 강할 수 있음 → 8번)</td><td><span class="stage">기획</span></td>
+<td><span class="conf c1">1차 지지</span></td><td class="src">H1 (반례 H3: 곡선 상승 작았는데 1위)</td><td class="src">H2 · H3 · J1</td></tr><tr class=""><td class="n">2</td><td class="rule">기획 근거는 ① 구간 근거 ② 첫 화면 근거(피드에서 왜 멈추나) 두 줄로. ②가 비면 첫 화면부터 다시 짠다</td><td><span class="stage">기획</span></td>
+<td><span class="conf c0">가설</span></td><td class="src">H5 · H4 중간치 66.4%(도발형 첫 화면) vs 가이드형 45~53%</td><td class="src">H4 확정 시 판정</td></tr><tr class=""><td class="n">3</td><td class="rule">대상(기존 팬 / 신규)을 먼저 정한다. 신규면 제목·첫 화면 = 이득, 인물은 둘째 컷부터</td><td><span class="stage">기획</span></td>
+<td><span class="conf c2">지지</span></td><td class="src">P1 · P2 (둘 다 구독자 시청 80% 이상, 구독 ≤1)</td><td class="src">P3~P6</td></tr><tr class=""><td class="n">4</td><td class="rule">끝 3초의 역할(구독 / 롱폼 클릭 / 후속편)을 하나 정한다</td><td><span class="stage">기획</span></td>
 <td><span class="conf c0">가설</span></td><td class="src">H1 (5만 조회에 구독 +7)</td><td class="src">끝 문장 바꾼 쇼츠로 비교</td></tr><tr class=""><td class="n">5</td><td class="rule">성과는 유효 조회수 기준으로 본다. 계속 시청↓ + 유효 좋아요·공유↑ = 첫 화면만 고치면 되는 쇼츠</td><td><span class="stage">성과 판독</span></td>
-<td><span class="conf c1">1차 지지</span></td><td class="src">H5</td><td class="src">다음 리포트 전부</td></tr><tr class=""><td class="n">6</td><td class="rule">원리·비유 부연은 댓글 반응이 있어도 쇼츠에선 자른다</td><td><span class="stage">편집</span></td>
+<td><span class="conf c1">1차 지지</span></td><td class="src">H5 · H3</td><td class="src">다음 리포트 전부</td></tr><tr class=""><td class="n">6</td><td class="rule">원리·비유 부연은 댓글 반응이 있어도 쇼츠에선 자른다</td><td><span class="stage">편집</span></td>
 <td><span class="conf c2">지지</span></td><td class="src">H1 · H2 · P6 진성 수정</td><td class="src">—</td></tr><tr class=""><td class="n">7</td><td class="rule">결론·가장 센 주장을 맨 앞으로 옮긴다</td><td><span class="stage">편집</span></td>
-<td><span class="conf c2">지지</span></td><td class="src">H4 · P2 · P3 · P5 진성 수정</td><td class="src">확정 성과로 검증</td></tr><tr class="struck"><td class="n">—</td><td class="rule"><s>훅 문장이 약하면 성과↓</s> → 2번으로 대체 (문장보다 첫 화면)</td><td><span class="stage">—</span></td>
+<td><span class="conf c2">지지</span></td><td class="src">H4 · P2 · P3 · P5 진성 수정</td><td class="src">확정 성과로 검증</td></tr><tr class=""><td class="n">8</td><td class="rule">타임스탬프 댓글 구간(시청자가 따라 하려고 저장한 장면) = 신규 유입 1순위 후보</td><td><span class="stage">기획</span></td>
+<td><span class="conf c1">1차 지지</span></td><td class="src">H3 (예상 4위 → 조회·구독 1위)</td><td class="src">전거근 J 시리즈(타임스탬프 근거 구간 다수)</td></tr><tr class=""><td class="n">9</td><td class="rule">댓글 신호를 행동형(타임스탬프·따라 해봤다) / 맥락형(오해·논쟁)으로 나눈다. 맥락형은 롱폼을 본 사람의 목소리 → 기존 팬용. 신규용이면 결론을 제목·첫 자막에</td><td><span class="stage">기획</span></td>
+<td><span class="conf c1">1차 지지</span></td><td class="src">H3 vs P2</td><td class="src">P3(휴식 논쟁) · P5(정답 논쟁)</td></tr><tr class=""><td class="n">10</td><td class="rule">신규 유입용 반복 포맷 = 기구 하나 · 핵심 한 줄 · 흔한 실수</td><td><span class="stage">기획</span></td>
+<td><span class="conf c2">지지</span></td><td class="src">H1 5.2만 · H3 6.7만 (확정 조회 1·2위)</td><td class="src">H2 · H4 확정</td></tr><tr class=""><td class="n">11</td><td class="rule">초반 이탈은 '10초 유지율'로 판정하되, 비구독 비중을 같이 본다 (비구독↑ → 10초 유지↓ 경향)</td><td><span class="stage">성과 판독</span></td>
+<td><span class="conf c0">가설</span></td><td class="src">확정 5편 (예외 P1)</td><td class="src">다음 확정 쇼츠</td></tr><tr class="struck"><td class="n">—</td><td class="rule"><s>훅 문장이 약하면 성과↓</s> → 2번으로 대체 (문장보다 첫 화면)</td><td><span class="stage">—</span></td>
 <td><span class="conf c-x">폐기·대체</span></td><td class="src">H5</td><td class="src">—</td></tr></tbody></table>
 
 <h2 id="status">전체 현황</h2><p class="lead">롱폼 3편에서 기획한 쇼츠 15편.</p>
-<table><thead><tr><th>카드</th><th>롱폼</th><th>제목</th><th>게시</th><th>상태</th></tr></thead><tbody><tr><td><a href="#H1">H1</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">등운동 그립은 이거 2개만 알아도 충분합니다</td><td>10/20</td><td><span class="pill ok">확정</span></td></tr><tr><td><a href="#H5">H5</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">시티드로우(롱풀) 일자바 사용법 완벽 가이드</td><td>10/21</td><td><span class="pill ok">확정</span></td></tr><tr><td><a href="#P1">P1</a></td><td>ACSM 팟캐스트</td><td class="t">용승님이 이 영상을 싫어합니다(?)</td><td>10/21</td><td><span class="pill ok">확정</span></td></tr><tr><td><a href="#H2">H2</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">완벽한 시티드로우(롱풀) 5STEPS</td><td>10/23</td><td><span class="pill mid">보류</span></td></tr><tr><td><a href="#H3">H3</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">등운동 90%가 잘못쓰는 좁은V자바 사용법</td><td>10/22</td><td><span class="pill mid">잠정</span></td></tr><tr><td><a href="#H4">H4</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">시티드로우(롱풀) 등을 말고 당기라고?!</td><td>10/24</td><td><span class="pill wait">대기</span></td></tr><tr><td><a href="#P2">P2</a></td><td>ACSM 팟캐스트</td><td class="t">운동은 빡세게 하는게 답일까?</td><td>10/22</td><td><span class="pill mid">잠정</span></td></tr><tr><td><a href="#P3">P3</a></td><td>ACSM 팟캐스트</td><td class="t">세트간 휴식시간 이렇게 가면 됩니다</td><td>10/23</td><td><span class="pill mid">보류</span></td></tr><tr><td><a href="#P4">P4</a></td><td>ACSM 팟캐스트</td><td class="t">운동이 내몸 망치고 있다는 신호 2가지</td><td>10/24</td><td><span class="pill wait">대기</span></td></tr><tr><td><a href="#P5">P5</a></td><td>ACSM 팟캐스트</td><td class="t">운동에 정답이 있다 vs 없다?</td><td>10/25</td><td><span class="pill wait">대기</span></td></tr><tr><td><a href="#P6">P6</a></td><td>ACSM 팟캐스트</td><td class="t">열심히 운동 vs 효과적으로 운동</td><td>10/26</td><td><span class="pill wait">대기</span></td></tr><tr><td><a href="#J1">J1</a></td><td>진화력3 · 전거근</td><td class="t">어깨 비대칭</td><td>—</td><td><span class="pill wait">비공개</span></td></tr><tr><td><a href="#J2">J2</a></td><td>진화력3 · 전거근</td><td class="t">상체 운동 전 깨울 근육</td><td>—</td><td><span class="pill wait">비공개</span></td></tr><tr><td><a href="#J4">J4</a></td><td>진화력3 · 전거근</td><td class="t">케이블 머신 전거근</td><td>—</td><td><span class="pill wait">비공개</span></td></tr><tr><td><a href="#J6">J6</a></td><td>진화력3 · 전거근</td><td class="t">90%가 잘못하고 있는 운동 (월슬라이드로 추정)</td><td>—</td><td><span class="pill wait">비공개</span></td></tr></tbody></table>
+<table><thead><tr><th>카드</th><th>롱폼</th><th>제목</th><th>게시</th><th>상태</th></tr></thead><tbody><tr><td><a href="#H1">H1</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">등운동 그립은 이거 2개만 알아도 충분합니다</td><td>10/20</td><td><span class="pill ok">확정</span></td></tr><tr><td><a href="#H5">H5</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">시티드로우(롱풀) 일자바 사용법 완벽 가이드</td><td>10/21</td><td><span class="pill ok">확정</span></td></tr><tr><td><a href="#P1">P1</a></td><td>ACSM 팟캐스트</td><td class="t">용승님이 이 영상을 싫어합니다(?)</td><td>10/21</td><td><span class="pill ok">확정</span></td></tr><tr><td><a href="#H2">H2</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">완벽한 시티드로우(롱풀) 5STEPS</td><td>10/23</td><td><span class="pill mid">잠정</span></td></tr><tr><td><a href="#H3">H3</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">등운동 90%가 잘못쓰는 좁은V자바 사용법</td><td>10/22</td><td><span class="pill ok">확정</span></td></tr><tr><td><a href="#H4">H4</a></td><td>한우물1 · 시티드 케이블로우</td><td class="t">시티드로우(롱풀) 등을 말고 당기라고?!</td><td>10/24</td><td><span class="pill mid">잠정</span></td></tr><tr><td><a href="#P2">P2</a></td><td>ACSM 팟캐스트</td><td class="t">운동은 빡세게 하는게 답일까?</td><td>10/22</td><td><span class="pill ok">확정</span></td></tr><tr><td><a href="#P3">P3</a></td><td>ACSM 팟캐스트</td><td class="t">세트간 휴식시간 이렇게 가면 됩니다</td><td>10/23</td><td><span class="pill mid">잠정</span></td></tr><tr><td><a href="#P4">P4</a></td><td>ACSM 팟캐스트</td><td class="t">운동이 내몸 망치고 있다는 신호 2가지</td><td>10/24</td><td><span class="pill mid">잠정</span></td></tr><tr><td><a href="#P5">P5</a></td><td>ACSM 팟캐스트</td><td class="t">운동에 정답이 있다 vs 없다?</td><td>10/25</td><td><span class="pill mid">보류</span></td></tr><tr><td><a href="#P6">P6</a></td><td>ACSM 팟캐스트</td><td class="t">열심히 운동 vs 효과적으로 운동</td><td>10/26</td><td><span class="pill wait">대기</span></td></tr><tr><td><a href="#J1">J1</a></td><td>진화력3 · 전거근</td><td class="t">어깨 비대칭</td><td>—</td><td><span class="pill wait">비공개</span></td></tr><tr><td><a href="#J2">J2</a></td><td>진화력3 · 전거근</td><td class="t">상체 운동 전 깨울 근육</td><td>—</td><td><span class="pill wait">비공개</span></td></tr><tr><td><a href="#J4">J4</a></td><td>진화력3 · 전거근</td><td class="t">케이블 머신 전거근</td><td>—</td><td><span class="pill wait">비공개</span></td></tr><tr><td><a href="#J6">J6</a></td><td>진화력3 · 전거근</td><td class="t">90%가 잘못하고 있는 운동 (월슬라이드로 추정)</td><td>—</td><td><span class="pill wait">비공개</span></td></tr></tbody></table>
 
 <h2 id="pending">대기 중 쇼츠</h2><p class="lead">성과가 확정되면 위 '확정 쇼츠'로 올라갑니다.</p>
 <div class="lf"><div class="lf-h"><h3>한우물1 · 시티드 케이블로우</h3><p>등운동, 초보로 돌아간다면 &#x27;이것&#x27; 한우물만 팝니다 (9:33)</p>
 <p class="goal"><b>쇼츠 목표</b> 검색·탐색 유입 확대 <span>— 탐색 88.9%, 엔딩 클릭 3.1%(채널 2.4%)로 건강한 영상</span></p></div>
 <div class="cards">
 <article class="card sm" id="H2">
-  <div class="meta"><span class="cid">H2</span><span class="pill mid">보류</span><span class="dl">10/23 · 1:01</span></div>
+  <div class="meta"><span class="cid">H2</span><span class="pill mid">잠정</span><span class="dl">10/23 · 1:01</span></div>
   <h4>완벽한 시티드로우(롱풀) 5STEPS</h4>
-  <p class="note">게시 1일차, 확정치 대비 약 3배 성장 중</p>
+  <p class="note">14,715 → 15,837 (+7.6%) · 계속 시청 53.4% (중간)</p>
   <div class="row"><div class="rl">기획</div><p>&quot;등운동은 당기기일까?&quot; 질문 구간에서 유지가 다시 올랐고, &quot;누워서 데드리프트&quot; 장면에 댓글 반응이 몰린 구간</p></div>
   <details class="inner"><summary>기획 근거</summary><ul><li>구간 2:26~3:46 (1:20 → 1:01, 3컷)</li><li>근거: 곡선 2:36 상승. 댓글 &quot;데드리프트를 누워서 할 수 있는 방법은 획기적&quot;(3). 예상 2위</li><li>진성 수정: 질문형 훅을 빼고 &quot;헬스 초보일수록 등 운동에서 자극을 느끼기 어려워합니다&quot;(문제 제기)로 시작. 누워서 데드 비유 삭제</li><li>검증 포인트: 문제 제기 훅(H2) vs 센 주장 훅(H4). H5와 같은 소재라 첫 화면 가설 판별용</li></ul></details>
 </article>
-<article class="card sm" id="H3">
-  <div class="meta"><span class="cid">H3</span><span class="pill mid">잠정</span><span class="dl">10/22 · 1:02</span></div>
-  <h4>등운동 90%가 잘못쓰는 좁은V자바 사용법</h4>
-  <p class="note">확정치 대비 +16.7%, 아직 성장 중</p>
-  <div class="row"><div class="rl">기획</div><p>시청자가 직접 타임스탬프(5:16)를 남긴 V바 그립 전환 장면 + 그 직후 유지 상승 구간</p></div>
-  <details class="inner"><summary>기획 근거</summary><ul><li>구간 5:19~6:23 (1:04 → 1:02, 2컷, 거의 그대로)</li><li>근거: 댓글 &quot;5:16&quot; 타임스탬프(3), 곡선 6:04 상승. 예상 4위</li></ul></details>
-</article>
 <article class="card sm" id="H4">
-  <div class="meta"><span class="cid">H4</span><span class="pill wait">대기</span><span class="dl">10/24 · 1:03</span></div>
+  <div class="meta"><span class="cid">H4</span><span class="pill mid">잠정</span><span class="dl">10/24 · 1:03</span></div>
   <h4>시티드로우(롱풀) 등을 말고 당기라고?!</h4>
-  <p class="note">10/24 공개</p>
+  <p class="note">19,392 → 20,956 (+8.1%) · 계속 시청 66.4% (중간, 첫 프레임 가설 지지 쪽)</p>
   <div class="row"><div class="rl">기획</div><p>댓글에서 가장 많이 나온 질문(상급자는 왜 등을 말고 당기나)에 답하는 구간</p></div>
   <details class="inner"><summary>기획 근거</summary><ul><li>구간 6:30~8:06 (1:36 → 1:03, 6컷, 첫 컷 217% 펀치인)</li><li>근거: 댓글 수요 1위(등 말고 당기기, 좋아요 8). 단 롱폼 곡선에선 하락 구간 → 댓글 vs 지속 데이터 충돌. 예상 3위</li><li>검증 포인트: 가설 3(댓글 수요 &gt; 지속 데이터) — H4가 H3·H5보다 잘 나오면 댓글 쪽이 맞음</li><li>추가: 도발형 첫 화면 H4의 계속 시청이 55% 근처면 H5 첫 프레임 가설 지지, 44% 근처면 시티드로우 소재 자체가 피드에서 약한 것</li></ul></details>
 </article></div></div><div class="lf"><div class="lf-h"><h3>ACSM 팟캐스트</h3><p>모든 헬스인을 속인 17년짜리 거짓말 (37:02)</p>
 <p class="goal"><b>쇼츠 목표</b> 롱폼 클릭(관련 동영상 클릭) 극대화 <span>— 조회 21.8만·CTR 6.7%로 터졌지만 엔딩 클릭 0.8%(채널 2.4%), 구독 전환 0.05%</span></p></div>
 <div class="cards">
-<article class="card sm" id="P2">
-  <div class="meta"><span class="cid">P2</span><span class="pill mid">잠정</span><span class="dl">10/22 · 0:47</span></div>
-  <h4>운동은 빡세게 하는게 답일까?</h4>
-  <p class="note">확정치 대비 +26.6%, 연령/지역 리포트 미개방</p>
-  <div class="row"><div class="rl">기획</div><p>댓글에서 가장 많았던 오해(&quot;2RIR이면 쉬운 거 아님?&quot;)를 연구 결과로 바로잡는 구간</p></div>
-  <details class="inner"><summary>기획 근거</summary><ul><li>구간 27:45~29:57 (68초 → 진성 47초, 8컷)</li><li>근거: 댓글 오해 1위(2RIR = 쉬움), RIR 확인 질문(17) + 곡선 23:12 RIR 정의 상승. 성과금 500 비유</li><li>진성 수정: 성과금 500 비유를 맨 앞 훅으로, 연결 문장 삭제</li></ul></details>
-</article>
 <article class="card sm" id="P3">
-  <div class="meta"><span class="cid">P3</span><span class="pill mid">보류</span><span class="dl">10/23 · 0:59</span></div>
+  <div class="meta"><span class="cid">P3</span><span class="pill mid">잠정</span><span class="dl">10/23 · 0:59</span></div>
   <h4>세트간 휴식시간 이렇게 가면 됩니다</h4>
-  <p class="note">확정 데이터 없음</p>
+  <p class="note">9,777 → 11,056 (+13.1%), 성장 중</p>
   <div class="row"><div class="rl">기획</div><p>댓글에서 가장 크게 싸운 주제(세트 간 휴식)에 숫자 기준으로 답하는 구간</p></div>
   <details class="inner"><summary>기획 근거</summary><ul><li>구간 17:53~20:33 (74초 → 진성 59초, 9컷)</li><li>근거: 댓글 부들 1위(휴식 1분30초 논쟁, 좋아요 53·답글 9) + 곡선 2위 17:35(텍사스 10분 일화)</li><li>진성 수정: ACSM 결론(90초 기준)을 맨 앞으로, 끝은 &quot;1분 30초~2분이 근비대에 적합&quot;</li><li>검증 포인트: 반발 답변형 = 댓글·공유↑ / 숫자 가이드 = 저장·공유↑</li></ul></details>
 </article>
 <article class="card sm" id="P4">
-  <div class="meta"><span class="cid">P4</span><span class="pill wait">대기</span><span class="dl">10/24 · 0:50</span></div>
+  <div class="meta"><span class="cid">P4</span><span class="pill mid">잠정</span><span class="dl">10/24 · 0:50</span></div>
   <h4>운동이 내몸 망치고 있다는 신호 2가지</h4>
-  <p class="note">10/24 공개</p>
+  <p class="note">20,693 → 24,147 (+16.7%), 성장 중</p>
   <div class="row"><div class="rl">기획</div><p>&quot;일상 피로 때문에 탈탈 못 턴다&quot;는 중장년 공감 댓글과 정크볼륨 논쟁을 겨냥한 구간</p></div>
   <details class="inner"><summary>기획 근거</summary><ul><li>구간 6:57~8:00 + 9:35~9:57 (60초 → 진성 50초, 11컷)</li><li>근거: 댓글 86(일상 피로도·40대 후반) + 정크볼륨 논쟁 + 곡선 10:07(&quot;털릴 때까지 → 악순환&quot;)</li><li>진성 수정: 도입 셋업 삭제, &quot;운동은 많이 할수록 좋다는 인식&quot;으로 바로 시작</li></ul></details>
 </article>
 <article class="card sm" id="P5">
-  <div class="meta"><span class="cid">P5</span><span class="pill wait">대기</span><span class="dl">10/25 · 0:42</span></div>
+  <div class="meta"><span class="cid">P5</span><span class="pill mid">보류</span><span class="dl">10/25 · 0:42</span></div>
   <h4>운동에 정답이 있다 vs 없다?</h4>
-  <p class="note">10/25 예약</p>
+  <p class="note">10/25 게시 당일, 4,223회</p>
   <div class="row"><div class="rl">기획</div><p>&quot;또 바뀔 거잖아, 정답은 없다&quot;는 반발 댓글(좋아요 101·154)에 정면으로 답하는 구간</p></div>
   <details class="inner"><summary>기획 근거</summary><ul><li>구간 2:54~4:11 (66초 → 진성 42초, 10컷)</li><li>근거: 반발 댓글 101(+어썸블리스 답글 32)·154. 롱폼 3:29~3:47에 이미 답이 있는데 못 보고 지나감</li><li>진성 수정: &quot;정답은 없지만 오답은 있다&quot;를 맨 앞으로, 인문학 교수 셋업 삭제, 끝에 &quot;2년 동안 격변&quot; 추가</li></ul></details>
 </article>
@@ -305,7 +355,8 @@ table{display:block;overflow-x:auto;white-space:normal}th,td{min-width:110px}td.
 <ol class="steps"><li><b>목표 설정</b><span>스튜디오 전 탭으로 롱폼 상태를 보고 쇼츠의 역할(롱폼 클릭 / 구독 / 검색)을 정함</span></li><li><b>구간 후보</b><span>시청 지속 곡선의 상승 지점 = 이미 검증된 장면</span></li><li><b>수요 매핑</b><span>댓글 감정선 분류: 참여 · 부들(반발·오해) · 감동 · 수요 · 타임스탬프</span></li><li><b>교차 선정</b><span>곡선과 댓글이 겹치는 구간 우선. 충돌하면 고르되 검증 포인트로 기록</span></li><li><b>구성</b><span>결론·센 주장 맨 앞, 첫 문장은 문제 제기, 끝은 롱폼 유도</span></li><li><b>리스크 필터</b><span>유료 정답 · 자막 오타 · 크롭 잘림 제외</span></li><li><b>판단 기록</b><span>근거·예상 순위·가설을 남기고 업로드 7일·28일 후 대조</span></li></ol>
 
 <h2 id="audit">리포트 검증 로그</h2><p class="lead">Aside 성과 리포트의 주장을 Claude가 데이터로 다시 확인한 기록.</p>
-<details class="inner" open><summary>2026-10-24 리포트</summary>
+<details class="inner" open><summary>2026-10-25 리포트</summary>
+<table style="margin-top:12px"><thead><tr><th>Aside 주장</th><th>판정</th><th>근거</th></tr></thead><tbody><tr><td>3~7초 낙폭은 9월에도 있는 공통 현상 → 초반 판정은 10초 유지율로</td><td><span class="tag agree">동의</span></td><td>9월 3편 낙폭 14~24p 확인. 10/24에 제기한 &#x27;9월 비교 전엔 단정 불가&#x27;에 대한 답으로 적절</td></tr><tr><td>V자바 10초 유지율 77% = 초반 문제</td><td><span class="tag hold">보류</span></td><td>비구독 비중과 10초 유지율이 반대로 움직임(V자바 54%→77%, 일자바 30%→94%, 빡세게 13%→93%). 편집 탓인지 도달 범위 탓인지 아직 분리 안 됨</td></tr><tr><td>V자바 = 이번 주 최고 신규 유입</td><td><span class="tag agree">동의</span></td><td>구독 1만당 4.3명, 비구독 시청 54.2%, 탐색 34.8%. 유효 기준 공유 0.45%</td></tr><tr><td>빡세게 = 팬 소비형</td><td><span class="tag agree">동의</span></td><td>구독자 86.6%, 구독 0, 검색은 채널명</td></tr><tr><td>빡세게 높은 계속 시청 = 상황극 효과일 수 있음</td><td><span class="tag add">가설 유지</span></td><td>리포트 스스로 &#x27;분리 불가&#x27;라 한 게 맞음</td></tr><tr><td>일자바 재상승 = 시티드로우 연작 노출 효과</td><td><span class="tag add">가설 유지</span></td><td>트래픽 비중 불변 + 새 검색어 등장. 일별 추이 없이는 판정 불가</td></tr><tr><td>시티드로우 첫 프레임 실험: 도발형 66.4% vs 가이드형 45~53%</td><td><span class="tag add">부분 동의</span></td><td>방향은 가설 지지. 단 잠정치이고, H4는 시리즈 3번째라 앞 편 시청자가 섞였을 수 있음</td></tr><tr><td>기준선을 확정 5개 중앙값으로 교체</td><td><span class="tag agree">동의</span></td><td>10/24에 요청했던 교체. 반영함</td></tr><tr><td>(누락)</td><td><span class="tag add">항목 추가 요청</span></td><td>관련 동영상 클릭률 — 두 번째 누락. ACSM·전거근 쇼츠 판정에 필요</td></tr></tbody></table></details><details class="inner" ><summary>2026-10-24 리포트</summary>
 <table style="margin-top:12px"><thead><tr><th>Aside 주장</th><th>판정</th><th>근거</th></tr></thead><tbody><tr><td>세 편 모두 3~7초에서 최대 이탈</td><td><span class="tag disagree">부분 반박</span></td><td>초당 하락으로 보면 그립(-7.3p/s)·용승(-7.0p/s)은 0~3초가 최대. 3~5초 최대는 일자바(-8.5p/s)뿐. 0초 100% 초과는 반복 시청 때문이라 초반 하락 일부는 착시. 9월 곡선과 비교 전엔 단정 불가</td></tr><tr><td>일자바 = 첫 프레임 문제</td><td><span class="tag add">가설 유지(근거 강화)</span></td><td>유효 조회수 기준 좋아요 4.25%로 압도적. 판별 실험 = H4 · H2</td></tr><tr><td>일자바 50초 이후 급락</td><td><span class="tag disagree">반박</span></td><td>50초 이후 하락 속도는 그립과 비슷</td></tr><tr><td>그립 = 팬 안에서 소비</td><td><span class="tag disagree">부분 반박</span></td><td>비구독자 시청 46.6%. 약점은 구독 전환</td></tr><tr><td>용승 = 팬 소비용</td><td><span class="tag agree">동의</span></td><td>구독자 80.5%, 공유 1</td></tr><tr><td>비율 지표 분모</td><td><span class="tag add">방법 수정 제안</span></td><td>좋아요율·공유율을 스와이프 포함 조회수로 나누면 스와이프 많은 영상이 불리. 유효 조회수 기준 병기. 9월 기준선 분모 확인 필요</td></tr><tr><td>(누락)</td><td><span class="tag add">항목 추가 요청</span></td><td>관련 동영상 클릭률(쇼츠 → 롱폼). ACSM·전거근 쇼츠의 핵심 KPI</td></tr></tbody></table></details>
 
 <div class="foot">어썸블리스 · 쇼츠 리포트 · 데이터 출처: YouTube Studio (Aside 자동 리포트)</div>
